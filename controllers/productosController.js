@@ -116,8 +116,6 @@ exports.eliminarProducto = async (req,res,next)=>{
                }
            })
        }
-
-
         res.json({
             mensaje: `El producto ${producto.nombre} se ha eliminado`
         })
